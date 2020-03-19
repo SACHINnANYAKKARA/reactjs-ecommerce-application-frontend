@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1d24ca6-fad9-443f-a580-e645a7c78a7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/application2.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/MainHeader/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/MainHeader/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/TopHeader/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/TopHeader/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/MobileTypeInput/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/MobileTypeInput/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/NormalTypeInput/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/NormalTypeInput/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/RadioButton/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/RadioButton/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/SubmitGradinetButton/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/SubmitGradinetButton/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Shop/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Shop/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Signup/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Signup/style.css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/type.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/authReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/authReducers.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZJ6ouqJF1p3h0KRB9A2XXcBXGO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/UI/NormalTypeInput" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sachin\Desktop\reactjs-ecommerce\application2.1\src\components\UI\NormalTypeInput" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1d24ca6-fad9-443f-a580-e645a7c78a7c" name="Default Changelist" comment="" />
+      <created>1584545027783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584545027783</updated>
+      <workItem from="1584545044305" duration="640000" />
+      <workItem from="1584549066295" duration="5751000" />
+      <workItem from="1584590547745" duration="700000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2472" y="178" key="#ESLint" timestamp="1584549831773">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="178" key="#ESLint/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584549831773" />
+    <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584551268959">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584551268959" />
+    <state x="2458" y="116" key="CommitChangelistDialog2" timestamp="1584545126690">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2458" y="116" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584545126690" />
+    <state x="2460" y="263" key="IDE.errors.dialog" timestamp="1584561572695">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2460" y="263" key="IDE.errors.dialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584561572695" />
+    <state x="2576" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584590670021">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2576" y="344" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584590670021" />
+  </component>
+</project>
