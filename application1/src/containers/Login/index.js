@@ -19,7 +19,7 @@ class Login extends Component {
         password: '',
         isError: false,
         errorMessage: ''
-    }
+    } 
 
     textHandler = (e) => {
         this.setState({
@@ -35,6 +35,7 @@ class Login extends Component {
     }
 
     loginHandler = (e) => {
+        console.log('p');
         e.preventDefault();
 
         if(this.state.email === ''){

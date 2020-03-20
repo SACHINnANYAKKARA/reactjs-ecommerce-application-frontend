@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Shop from './Shop';
+import Signup from './Signup';
+import Login from './Login';
 
 import { Provider } from 'react-redux';
 import { createStore, combineReducers, applyMiddleware } from 'redux';
@@ -28,7 +30,7 @@ function App() {
         <div className="App">
             <Switch>
               
-              <Route path="/"  component={Shop} />
+              <Route path="/"  component={Login} />
               
             </Switch>
             

@@ -5,6 +5,7 @@ export const LOGOUT_USER = 'LOGOUT_USER';
 
 export const signup = (user) => {
     return async dispatch => {
+        console.log(user);
         try{
            const response = await fetch(`${base_url}/user/signup`, {
                headers: {
@@ -19,9 +20,10 @@ export const signup = (user) => {
                    password: user.password
                })
            });
+           console.log(response);
            const jsonResponse = await response.json();
            return jsonResponse;
-           console.log(jsonResponse);
+          
         }catch(error){
             console.log(error);
         }
@@ -46,7 +48,7 @@ export const authenticate = (email, password) => {
         if(response.status === 200){
 
             window.localStorage.setItem('auth', JSON.stringify(response.message));
-
+            console.log(jsonResponse.message);
             dispatch({
                 type: AUTHENTICATE_USER,
                 auth: jsonResponse.message

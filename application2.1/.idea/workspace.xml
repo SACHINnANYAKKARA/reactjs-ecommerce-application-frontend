@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1d24ca6-fad9-443f-a580-e645a7c78a7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/application2.1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/Header/MainHeader/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/Header/MainHeader/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/Header/TopHeader/index.js" afterDir="false" />
@@ -20,14 +12,24 @@
       <change afterPath="$PROJECT_DIR$/src/components/UI/NormalTypeInput/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/UI/RadioButton/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/UI/RadioButton/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/SubmitGradinetButton/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/SubmitGradinetButton/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/SubmitGradientButton/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/SubmitGradientButton/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Login/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Login/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/containers/Shop/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/containers/Shop/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/containers/Signup/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/containers/Signup/style.css.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/store/actions/type.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application1/src/containers/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../application1/src/containers/Login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application1/src/store/actions/authActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../application1/src/store/actions/authActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/authActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/authActions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/reducers/authReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/authReducers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/UI/NormalTypeInput" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../React &amp; Nestjs Shopping cart/nestjs-ecommerce-application-backend" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -93,8 +95,22 @@
       <updated>1584545027783</updated>
       <workItem from="1584545044305" duration="640000" />
       <workItem from="1584549066295" duration="5751000" />
-      <workItem from="1584590547745" duration="700000" />
+      <workItem from="1584590547745" duration="3351000" />
+      <workItem from="1584597777938" duration="9441000" />
+      <workItem from="1584622822569" duration="9745000" />
+      <workItem from="1584636536693" duration="4668000" />
+      <workItem from="1584644177064" duration="4276000" />
+      <workItem from="1584676737433" duration="5136000" />
+      <workItem from="1584684642982" duration="3058000" />
     </task>
+    <task id="LOCAL-00001" summary="commt">
+      <created>1584594159061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584594159061</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,28 +118,37 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="commt" />
+    <option name="LAST_COMMIT_MESSAGE" value="commt" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2472" y="178" key="#ESLint" timestamp="1584549831773">
+    <state x="2472" y="178" key="#ESLint" timestamp="1584633131766">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="178" key="#ESLint/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584549831773" />
+    <state x="2472" y="178" key="#ESLint/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584633131766" />
     <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584551268959">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584551268959" />
-    <state x="2458" y="116" key="CommitChangelistDialog2" timestamp="1584545126690">
+    <state x="2458" y="116" key="CommitChangelistDialog2" timestamp="1584594154485">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2458" y="116" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584545126690" />
+    <state x="2458" y="116" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584594154485" />
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1584598068127">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584598068127" />
     <state x="2460" y="263" key="IDE.errors.dialog" timestamp="1584561572695">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2460" y="263" key="IDE.errors.dialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584561572695" />
-    <state x="2576" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584590670021">
+    <state x="2576" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584676752067">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2576" y="344" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584590670021" />
+    <state x="2576" y="344" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584676752067" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584628615328">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584628615328" />
   </component>
 </project>
