@@ -23,10 +23,10 @@ class Products extends Component{
         this.props.getProducts(categorySlug, filter)
         .then(response => {
 
-           console.log(response.message)
-            this.setState({
-                products: response.message
-            })
+        //    console.log(response.message)
+        //     this.setState({
+        //         products: response.message
+        //     })
         });
     }
 
