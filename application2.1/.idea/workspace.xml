@@ -2,44 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1d24ca6-fad9-443f-a580-e645a7c78a7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/containers/SignUp/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../setup-ant-design/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../application1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application1/src/components/ShopStore/Products/Product/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../application1/src/components/ShopStore/Products/Product/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application1/src/components/ShopStore/Products/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/../application1/src/components/ShopStore/Products/Products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application1/src/components/ShopStore/Products/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../application1/src/components/ShopStore/Products/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application1/src/containers/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../application1/src/containers/Login/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application1/src/store/actions/authActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../application1/src/store/actions/authActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../application1/src/store/reducers/productReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/../application1/src/store/reducers/productReducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/MainHeader/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/MainHeader/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/TopHeader/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Products/Product/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/TopHeader/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Products/Product/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/MobileTypeInput/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/MobileTypeInput/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/NormalTypeInput/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Products/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/NormalTypeInput/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Products/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/RadioButton/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/RadioButton/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/SubmitGradientButton/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/SubmitGradientButton/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Login/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Login/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Login/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Shop/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Shop/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SignUp/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Signup/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Signup/style.css.js" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/authActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/authActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/productActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/productActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/type.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/type.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/authReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/authReducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/productReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/productReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Products/Product/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Products/Product/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Products/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Products/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +99,8 @@
       <workItem from="1584869262989" duration="538000" />
       <workItem from="1584881289336" duration="8307000" />
       <workItem from="1584894731181" duration="7289000" />
-      <workItem from="1584941861479" duration="778000" />
+      <workItem from="1584941861479" duration="3632000" />
+      <workItem from="1584969465779" duration="1391000" />
     </task>
     <task id="LOCAL-00001" summary="commt">
       <created>1584594159061</created>
@@ -141,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584594159061</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commt">
+      <created>1584942824704</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584942824704</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,10 +137,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584882148518" />
-    <state x="2458" y="116" key="CommitChangelistDialog2" timestamp="1584594154485">
+    <state x="2458" y="116" key="CommitChangelistDialog2" timestamp="1584942819615">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2458" y="116" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584594154485" />
+    <state x="2458" y="116" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584942819615" />
     <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1584884181339">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -191,10 +166,14 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2460" y="263" key="IDE.errors.dialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584561572695" />
-    <state x="2576" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584942308522">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584942833668">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584768239720" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584942833668" />
+    <state x="525" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1584969465810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584969465810" />
     <state x="2576" y="344" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584942308522" />
     <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584807882795" />
     <state x="2575" y="252" width="609" height="536" key="find.popup" timestamp="1584858346976">
