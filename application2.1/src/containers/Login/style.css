@@ -1,22 +1,22 @@
-.LoginContainer{
-    min-width: 300px;
-    width: 20%;
-    height: auto;
-    margin: 0 auto;
-    padding: 20px;
-    box-shadow: 0 0 5px 0px #cecece;
-    border-radius: 3px;
-    margin-top: 5%;
-}
-.WelcomeText{
-    font-size: 30px;
-    text-align: center;
-    padding: 20px 0;
-}
-.LoginWrapper{
-    margin: 30px 0;
+.site-card-border-less-wrapper {
+    height: 800px;
 }
 
-*:focus{
-    outline: none;
+.card-body {
+    top: 150px;
+    width: 30%;
+    right: 1px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px 0px #cecece;
+    border-radius: 3px;
+}
+
+.card-body:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.site-card-border-less-wrapper > .radio-button-size {
+    right: 100px;
+    size: 180px;
+    width: 200px;
 }

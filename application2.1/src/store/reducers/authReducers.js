@@ -1,25 +1,28 @@
-import { AUTHENTICATE_USER, LOGOUT_USER } from "../actions/type";
+import {AUTHENTICATE_USER, LOGOUT_USER} from "../actions/type";
 
 const initState = {
     isAuthenticated: false,
-    user: {},
+    user: '',
+    id: '',
     token: ''
 }
 
 const authReducers = (state = initState, action) => {
-    switch(action.type){
+    switch (action.type) {
         case AUTHENTICATE_USER:
             state = {
                 ...state,
                 isAuthenticated: true,
-                user: action.auth.user,
+                user: action.auth.username,
+                id: action.auth.id,
                 token: action.auth.token
             }
             break;
         case LOGOUT_USER:
             state = {
                 isAuthenticated: false,
-                user: {},
+                user: '',
+                id: '',
                 token: ''
             }
             break;

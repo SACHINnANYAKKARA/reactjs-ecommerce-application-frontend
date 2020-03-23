@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
 
 const Product = props => {
-
+console.log(props);
     const url = props.match.url === '/' ? '/products/all' : props.match.url;
 
     return (

@@ -1,10 +1,17 @@
 import React, {Component} from 'react';
+import {Form, Input, Button, Radio, Card} from 'antd';
+import './style.css';
+import * as authActions from "../../store/actions/authActions";
 import {connect} from 'react-redux';
 
-import MobileTypeInput from '../../components/UI/MobileTypeInput';
-import SubmitGradientButton from '../../components/UI/SubmitGradientButton';
+const layout = {
+    labelCol: {span: 8},
+    wrapperCol: {span: 16},
+};
+const tailLayout = {
+    wrapperCol: {offset: 8, span: 16},
+};
 
-import * as authActions from '../../store/actions/authActions';
 
 class Login extends Component {
     state = {
@@ -13,79 +20,86 @@ class Login extends Component {
         password: ''
     }
 
-    textHandler = (e) => {
-        this.setState({
-            [e.target.name]: e.target.value
-        })
-    }
+    onFinish = (values) => {
 
-    loginHandler = (e) => {
-        e.preventDefault();
+        this.setState({
+            username: values.username,
+            password: values.password
+        })
 
         this.props.authenticate(this.state.username, this.state.password).then(response => {
-            console.log(response);
-            if(response.hasOwnProperty('token')){
+
+            if (response.hasOwnProperty('token')) {
                 window.localStorage.setItem('auth', JSON.stringify(response))
                 this.setState({
-                   redirectToReferrer: true
+                    redirectToReferrer: true
                 });
             }
         })
     }
 
-    componentDidMount(){
-       if(!this.props.auth.isAuthenticated){
-           this.props.getTokens()
-               .then(result => {
-                   // result will be either true or false
-                   if(result){
-                       this.setState({
-                           redirectToReferrer: true
-                       });
-                   }
+    componentDidMount() {
+        if (!this.props.auth.isAuthenticated) {
+            this.props.getTokens()
+                .then(result => {
+                    // result will be either true or false
+                    if (result) {
+                        this.setState({
+                            redirectToReferrer: true
+                        });
+                    }
 
-               })
-               .catch(er => {
-                   console.log(er);
-               });
-       }
+                })
+                .catch(er => {
+                    console.log(er);
+                });
+        }
     }
 
     render() {
-
-        const {loginForm} = this.state;
-
         return (
-            <div className="LoginContainer">
-                <div className="WelcomeText">
-                    <h3>Login</h3>
-                </div>
 
-                <div className="LoginWrapper">
-                    <p></p>
-                    <form onSubmit={this.loginHandler} autoComplete="off">
+            <div className="site-card-border-less-wrapper">
 
-                        <MobileTypeInput
-                            type="text"
-                            placeholder="Username"
-                            value={this.state.username}
-                            textHandler={this.textHandler}
+                <Card className="card-body" title="Login Form">
+                    <Form
+                        {...layout}
+                        name="basic"
+                        onFinish={this.onFinish}
+                        initialValues={{remember: true}}
+                    >
+                        <Form.Item
+                            label="Username"
                             name="username"
-                        />
-                        <MobileTypeInput
-                            type="password"
-                            placeholder="Password"
-                            value={this.state.password}
-                            textHandler={this.textHandler}
-                            name="password"
-                        />
+                            value={this.state.username}
+                            rules={[{required: true, message: 'Please input your username!'}]}
+                        >
+                            <Input/>
+                        </Form.Item>
 
-                        <SubmitGradientButton
-                            label="Login"
-                            style={{marginTop: '30px'}}
-                        />
-                    </form>
-                </div>
+                        <Form.Item
+                            label="Password"
+                            name="password"
+                            value={this.state.password}
+                            rules={[{required: true, message: 'Please input your password!'}]}
+                        >
+                            <Input.Password/>
+                        </Form.Item>
+
+                        <Form.Item {...tailLayout}>
+                            <Button type="primary" htmlType="submit">
+                                Submit
+                            </Button>
+                        </Form.Item>
+                    </Form>
+
+                    {/*<Radio.Group className="radio-button-size">*/}
+                    {/*    <Radio.Button value="large" onClick>Large</Radio.Button>*/}
+                    {/*    <Radio.Button value="small">Small</Radio.Button>*/}
+                    {/*</Radio.Group>*/}
+
+                </Card>
+
             </div>
         );
     }

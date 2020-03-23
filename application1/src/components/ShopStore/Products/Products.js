@@ -15,6 +15,7 @@ class Products extends Component{
         const slug = this.props.match.params.slug === 'all' ? '' : this.props.match.params.slug
         this.getProducts(slug);
         this.props.getCategories();
+        console.log(this.props.products.products);
     }
 
     getProducts = (categorySlug = '', filter = null) => {
@@ -22,11 +23,10 @@ class Products extends Component{
         this.props.getProducts(categorySlug, filter)
         .then(response => {
 
-            console.log(response);
-
-            // this.setState({
-            //     products: response.message
-            // })
+           console.log(response.message)
+            this.setState({
+                products: response.message
+            })
         });
     }
 
@@ -68,7 +68,7 @@ class Products extends Component{
 
             <div className="Content">
                     <div className="ContentTitle">
-                        <h2 className="CategoryTitle">{slug}</h2>
+                        
                     </div>
                     <div className="ContentBody">
                         <div className="SideMenu">

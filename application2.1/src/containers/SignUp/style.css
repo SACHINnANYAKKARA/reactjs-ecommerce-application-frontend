@@ -1,0 +1,13 @@
+
+.card-body {
+    top: 150px;
+    width: 30%;
+    right: 1px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px 0px #cecece;
+    border-radius: 3px;
+}
+
+.card-body:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}

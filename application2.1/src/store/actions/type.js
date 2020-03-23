@@ -7,4 +7,4 @@ export const UPDATE_CART = 'UPDATE_CART';
 export const CLEAR_CART = 'CLEAR_CART';
 
 export const GET_PRODUCTS = 'GET_PRODUCTS';
-export const GET_PRODUCT_CATEGORIES = 'GET_PRODUCT_CATEGORIES';
+

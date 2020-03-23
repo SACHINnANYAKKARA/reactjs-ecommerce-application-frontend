@@ -77,7 +77,7 @@ export const logout = () => {
 export const getToken = () => {
     return dispatch => {
         const authData = window.localStorage.getItem('auth');
-
+        console.log('authdata'+authData);
         if(authData){
             const auth = JSON.parse(authData);
             if(auth.hasOwnProperty('token') && auth.token !== ''){

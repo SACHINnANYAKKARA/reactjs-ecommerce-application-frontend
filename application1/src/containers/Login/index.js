@@ -56,6 +56,7 @@ class Login extends Component {
             console.log(response);
             if(response.hasOwnProperty('token')){
                 window.localStorage.setItem('auth', JSON.stringify(response))
+                console.log(JSON.stringify('auth'+localStorage.getItem));
                 this.setState({
                     redirectToReferrer: true
                 });
