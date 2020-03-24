@@ -30,9 +30,9 @@ function App() {
             <Router>
                 <div className="App">
                     <Switch>
-                        <Route path="/Login" component={Login}/>
+                        <Route path="/login" component={Login}/>
                         <Route path="/" component={Products}/>
-                        <Route path="/SignUp" component={SignUp}/>
+                        <Route path="/signup" component={SignUp} />
                     </Switch>
                 </div>
             </Router>

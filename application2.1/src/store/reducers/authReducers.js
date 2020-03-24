@@ -13,7 +13,7 @@ const authReducers = (state = initState, action) => {
             state = {
                 ...state,
                 isAuthenticated: true,
-                user: action.auth.username,
+                user: action.auth.user,
                 id: action.auth.id,
                 token: action.auth.token
             }

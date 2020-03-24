@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1d24ca6-fad9-443f-a580-e645a7c78a7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../application1/src/components/ShopStore/Products/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/../application1/src/components/ShopStore/Products/Products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrivateRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/TopHeader/TopHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/TopHeader/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application1/src/components/Header/MainHeader/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../application1/src/components/Header/MainHeader/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../application1/src/components/Header/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../application1/src/components/Header/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/MainHeader/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/MainHeader/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Products/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Products/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/productReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/productReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Login/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Products/Product/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Products/Product/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/authActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/authActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/authReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/authReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../setup-ant-design/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../setup-ant-design/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../setup-ant-design/tsconfig.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +111,10 @@
       <workItem from="1584881289336" duration="8307000" />
       <workItem from="1584894731181" duration="7289000" />
       <workItem from="1584941861479" duration="3632000" />
-      <workItem from="1584969465779" duration="5993000" />
+      <workItem from="1584969465779" duration="7249000" />
+      <workItem from="1584983670860" duration="12963000" />
+      <workItem from="1585024447969" duration="581000" />
+      <workItem from="1585038744001" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="commt">
       <created>1584594159061</created>
@@ -126,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584971253642</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commt">
+      <created>1584976924048</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584976924048</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,10 +165,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2610" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584882148518" />
-    <state x="2458" y="116" key="CommitChangelistDialog2" timestamp="1584971249873">
+    <state x="2458" y="116" key="CommitChangelistDialog2" timestamp="1584976917680">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2458" y="116" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584971249873" />
+    <state x="2458" y="116" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584976917680" />
     <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1584884181339">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -176,10 +194,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2460" y="263" key="IDE.errors.dialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584561572695" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584971264746">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584976928219">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584971264746" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584976928219" />
     <state x="525" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1584969465810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

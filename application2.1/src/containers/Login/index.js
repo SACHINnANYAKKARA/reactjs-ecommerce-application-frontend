@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link, Redirect } from 'react-router-dom';
 import {Form, Input, Button, Radio, Card} from 'antd';
 import './style.css';
 import * as authActions from "../../store/actions/authActions";
@@ -36,6 +37,11 @@ class Login extends Component {
                 });
             }
         })
+
+        // if(this.state.redirectToReferrer){
+        //     this.props.history.push('/products');
+        // }
+
     }
 
     componentDidMount() {
@@ -57,8 +63,8 @@ class Login extends Component {
     }
 
     render() {
-        return (
 
+        return (
             <div className="site-card-border-less-wrapper">
 
                 <Card className="card-body" title="Login Form">

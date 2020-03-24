@@ -1,13 +1,10 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import {connect} from 'react-redux';
-import {PageHeader, Input, Descriptions, Button} from 'antd';
 import * as authActions from '../../store/actions/authActions';
 import './style.css';
 
-const {Search} = Input;
-
-class Header extends Component {
+class TopHeader extends Component {
 
     componentDidMount() {
         this.props.getToken();
@@ -20,7 +17,6 @@ class Header extends Component {
         </ul>;
         if(this.props.auth.isAuthenticated){
             guestAccount = <ul className="Dropdown Account">
-                <li><Link to="/orders"><i className="far fa-clipboard"></i>&nbsp;&nbsp;<span>Orders</span></Link></li>
                 <li><Link to="" onClick={() => this.props.logout()}><i className="fas fa-sign-out-alt"></i>&nbsp;&nbsp;<span>Logout</span></Link></li>
             </ul>;
         }
@@ -29,11 +25,11 @@ class Header extends Component {
             <header className="Header">
                 <div className="TopHeader">
                     <div>
-                            <li className="MenuItem">
-                                <i className="far fa-user-circle"></i>
-                                <Link to="/account">{this.props.auth.isAuthenticated ? this.props.auth.user: 'My Account'}</Link>
-                                {guestAccount}
-                            </li>
+                        <li className="MenuItem">
+                            <i className="far fa-user-circle"></i>
+                            <Link to="/account">{this.props.auth.isAuthenticated ? this.props.auth.user: 'My Account'}</Link>
+                            {guestAccount}
+                        </li>
                     </div>
                 </div>
             </header>
@@ -54,4 +50,4 @@ const mapDispatchToProps = dispatch => {
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Header);
+export default connect(mapStateToProps, mapDispatchToProps)(TopHeader);
