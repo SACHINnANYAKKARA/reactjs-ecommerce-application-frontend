@@ -31,8 +31,8 @@ function App() {
                 <div className="App">
                     <Switch>
                         <Route path="/login" component={Login}/>
-                        <Route path="/" component={Products}/>
                         <Route path="/signup" component={SignUp} />
+                        <Route path="/" component={Products}/>
                     </Switch>
                 </div>
             </Router>

@@ -1,44 +1,28 @@
-import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
-import {connect} from 'react-redux';
-import {PageHeader, Input, Descriptions, Button} from 'antd';
-import * as authActions from '../../store/actions/authActions';
-import './style.css';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
-const {Search} = Input;
+import MainHeader from './MainHeader/MainHeader';
+import * as authActions from '../../store/actions/authActions';
+
+import './style.css';
 
 class Header extends Component {
 
-    componentDidMount() {
-        this.props.getToken();
+    componentDidMount() {}
+
+    logout = () => {
+        this.props.logout();
     }
 
     render() {
-        let guestAccount = <ul className="Dropdown Account">
-            <li><Link to="/signup"><i className="fas fa-user"></i>&nbsp;&nbsp;<span>Register</span></Link></li>
-            <li><Link to="/login"><i className="fas fa-user"></i>&nbsp;&nbsp;<span>Login</span></Link></li>
-        </ul>;
-        if(this.props.auth.isAuthenticated){
-            guestAccount = <ul className="Dropdown Account">
-                <li><Link to="/orders"><i className="far fa-clipboard"></i>&nbsp;&nbsp;<span>Orders</span></Link></li>
-                <li><Link to="" onClick={() => this.props.logout()}><i className="fas fa-sign-out-alt"></i>&nbsp;&nbsp;<span>Logout</span></Link></li>
-            </ul>;
-        }
 
         return (
             <header className="Header">
-                <div className="TopHeader">
-                    <div>
-                            <li className="MenuItem">
-                                <i className="far fa-user-circle"></i>
-                                <Link to="/account">{this.props.auth.isAuthenticated ? this.props.auth.user: 'My Account'}</Link>
-                                {guestAccount}
-                            </li>
-                    </div>
-                </div>
+                <MainHeader logout={this.logout} />
             </header>
         );
     }
+
 }
 
 const mapStateToProps = state => {
@@ -49,7 +33,6 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        getToken: () => dispatch(authActions.getToken()),
         logout: () => dispatch(authActions.logout())
     }
 }
